@@ -8,13 +8,23 @@
 
 #import <XCTest/XCTest.h>
 
+@class ParamTest;
+
+//@protocol ParamTestProvider <NSObject>
+//+(NSDictionary<NSString*, ParamTest*>*_Nonnull)getParamTests;
+//@optional
+//@end
+
 NS_ASSUME_NONNULL_BEGIN
-@interface _QuickSelectorWrapper : NSObject
+
+/*@interface _QuickSelectorWrapper : NSObject
 - (instancetype)initWithSelector:(SEL)selector;
-@end
+@end*/
 
 @interface ParametrizedTestCase : XCTestCase
-+ (NSArray<_QuickSelectorWrapper *> *)_qck_testMethodSelectors;
++ (NSArray<NSInvocation *> *)getParamInvocations:(NSDictionary<NSString*, ParamTest*>*)paramTests instance:(ParametrizedTestCase *)instance;
++ (ParametrizedTestCase *)getInstance;
+//+ (NSArray<_QuickSelectorWrapper *> *)_qck_testMethodSelectors;
 @end
 
 @interface PlainTestCase : XCTestCase

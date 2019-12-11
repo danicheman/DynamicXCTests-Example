@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015F5BB32395FD7F0029965E /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015F5BB22395FD7F0029965E /* Account.swift */; };
+		015F5BB5239ED12E0029965E /* ParamTestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015F5BB4239ED12E0029965E /* ParamTestProvider.swift */; };
+		015F5BB7239ED8520029965E /* ParamTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015F5BB6239ED8520029965E /* ParamTest.swift */; };
 		DB136C852242345300B0DB6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB136C842242345300B0DB6F /* AppDelegate.swift */; };
 		DB136C872242345300B0DB6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB136C862242345300B0DB6F /* ViewController.swift */; };
 		DB136C8A2242345300B0DB6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB136C882242345300B0DB6F /* Main.storyboard */; };
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		015F5BB22395FD7F0029965E /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		015F5BB4239ED12E0029965E /* ParamTestProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamTestProvider.swift; sourceTree = "<group>"; };
+		015F5BB6239ED8520029965E /* ParamTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamTest.swift; sourceTree = "<group>"; };
 		DB136C812242345300B0DB6F /* DynamicXCTests-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DynamicXCTests-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB136C842242345300B0DB6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB136C862242345300B0DB6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,10 +101,13 @@
 			isa = PBXGroup;
 			children = (
 				DB136CA42242348000B0DB6F /* RuntimeTests.swift */,
+				015F5BB6239ED8520029965E /* ParamTest.swift */,
 				DB136CA7224234A200B0DB6F /* ParametrizedTestCase.h */,
 				DB136CA8224234A200B0DB6F /* ParametrizedTestCase.m */,
 				DB136C9B2242345800B0DB6F /* Info.plist */,
 				DB136CA6224234A100B0DB6F /* DynamicXCTests-ExampleTests-Bridging-Header.h */,
+				015F5BB22395FD7F0029965E /* Account.swift */,
+				015F5BB4239ED12E0029965E /* ParamTestProvider.swift */,
 			);
 			path = "DynamicXCTests-ExampleTests";
 			sourceTree = "<group>";
@@ -216,6 +225,9 @@
 			files = (
 				DB136CA52242348000B0DB6F /* RuntimeTests.swift in Sources */,
 				DB136CA9224234A200B0DB6F /* ParametrizedTestCase.m in Sources */,
+				015F5BB5239ED12E0029965E /* ParamTestProvider.swift in Sources */,
+				015F5BB7239ED8520029965E /* ParamTest.swift in Sources */,
+				015F5BB32395FD7F0029965E /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
