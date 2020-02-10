@@ -4,7 +4,7 @@ Example project for https://stackoverflow.com/questions/55142213/how-to-dynamica
 An extension of ManWithBear's repository enabling dynamic testing
 
 Create a swift object which is accessible to Objective C
-```
+```swift
 //Account.swift
 import Foundation
 
@@ -22,7 +22,7 @@ import Foundation
 
 Extend ParamTestsBase and write your own dynamic tests and argument providers
 
-```
+```swift
 //make sure to use the objc annotation
 @objc public class DynamicTests:ParamTestBase {
 
